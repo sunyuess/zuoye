@@ -1,0 +1,28 @@
+.container.active {
+    width:1170px;
+    height:1181px;
+    margin:0 auto;
+    padding:0 15px;
+}
+.news-list.active{
+    width:817.5px;
+    height:1121px;
+    padding:30px;
+    background: #ffffff ;
+    float: left;
+}
+.newslist-item.active{
+    width:817.5px;
+    height:1091px;
+    margin-bottom: 11px;
+}
+.news-detail.active{
+    width:817.5px;
+    height:160px;
+    border-bottom: 1px solid #f0f2f5;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.met-news.active{
+    height:1181px;
+}

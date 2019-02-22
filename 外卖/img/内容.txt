@@ -1,0 +1,238 @@
+ <div class="content">
+        <div class="content-title">
+            <h2>内容</h2>
+        </div>
+        <div class="content-bd">
+            <ul class="content-bd-list">
+                <li class="bd-details">
+                    <h2>图书</h2>
+                    <p class="details-name">好吗好的</p>
+                    <p class="details-bd">畅销作家大冰2016年新书！讲给你听，好吗好的</p>
+                    <p class="details-price">29.37元</p>
+                    <div class="details-img"><a href=""><img src="img/details.png" alt=""></a></div>
+                    <div class="details-point">
+                        <ul class="details-point1">
+                            <li class="details-point-1">
+                                <span><div class="dot hover new"></div></span>
+                            </li><li class="details-point-1">
+                                <span><div class="dot new-dot"></div></span>
+                            </li><li class="details-point-1">
+                                <span><div class="dot new-dot"></div></span>
+                            </li>
+                        </ul>
+
+
+
+
+
+
+css   
+
+
+
+
+/*内容部分开始*/
+.content{
+    width: 1226px;
+    height: 500px;
+    background: #f5f5f5;
+    margin: 0 auto 22px;
+}
+.content-title{
+    width: 1226px;
+    height: 58px;
+    position: relative;
+}
+.content-title h2{
+    font-size: 22px;
+    line-height: 58px;
+    font-weight: 200;
+    color: #333;
+    font-family:楷体;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.content-bd{
+    width: 1226px;
+    height: 420px;
+}
+.content-bd-list{
+    width: 1240px;
+    height: 420px;
+}
+.bd-details{
+    width: 296px;
+    height: 374px;
+    background: #fff;
+    padding: 45px 0 0;
+    border-top: 1px solid #ffac13;
+    margin-bottom: 14px;
+    position: relative;
+    float: left;
+}
+.separ{
+    margin: 0 0 14px 14px;
+    border-top: 1px solid #83c44e;
+}
+.separ1{
+    margin: 0 0 14px 14px;
+    border-top: 1px solid #e53935;
+}.separ2{
+    margin: 0 0 14px 14px;
+    border-top: 1px solid #2196f3;
+}
+.bd-details h2{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 10px 18px;
+    color: #ffac13;
+}
+.gaide{
+    color: #83c44e;
+}.gaide1{
+    color: #e53935;
+}.gaide2{
+    color: #2196f3;
+}
+.details-name{
+    width: 256px;
+    height: 25px;
+    margin: 0 20px 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+}
+.details-bd{
+    width: 200px;
+    height: 40px;
+    margin: 0 48px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #b0b0b0;
+}
+.details-price{
+    width: 276px;
+    height: 21px;
+    text-align: center;
+    margin: 0 10px 15px;
+    color: #333;
+    font-size: 13px;
+}
+.details-img{
+    width: 216px;
+    height: 154px;
+    margin: 0 auto;
+}
+.details-img img{
+    width: 216px;
+    height: 154px;
+}
+.details-point{
+    width: 296px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+.details-point1{
+    width: 296px;
+    height: 30px;
+    text-align: center;
+}
+.details-point-1{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin: 0 2px;
+    text-align: center;
+    display: inline-block;
+}
+.details-point-1 span{
+    text-align: center;
+    margin: auto;
+}
+.left-neirong{
+    position: absolute;
+    left: 0;
+    top: 195px;
+}
+.new-dot{
+    background: #b0b0b0;
+}
+.new{
+    border: 1px solid #ff6700;
+    background: #fff;
+}
+/*内容部分结束*/
+                    </div>
+                    <div class="btn-left left-neirong"></div>
+                    <div class="btn-right"></div>
+
+                </li>
+                <li class="bd-details separ">
+                    <h2><div class="gaide">MIUI主题</div></h2>
+                    <p class="details-name">温暖圣诞主题</p>
+                    <p class="details-bd">超萌超可爱</p>
+                    <p class="details-price"></p>
+                    <div class="details-img"><a href=""><img src="img/内容2.png" alt=""></a></div>
+                    <div class="details-point">
+                        <ul class="details-point1">
+                            <li class="details-point-1">
+                                <span><div class="dot hover new"></div></span>
+                            </li><li class="details-point-1">
+                            <span><div class="dot new-dot"></div></span>
+                        </li><li class="details-point-1">
+                            <span><div class="dot new-dot"></div></span>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="btn-left left-neirong"></div>
+                    <div class="btn-right"></div>
+                </li>
+                <li class="bd-details separ1">
+                    <h2><div class="gaide1">游戏</div></h2>
+                    <p class="details-name">非人学园</p>
+                    <p class="details-bd">脑洞大开的二次元竞技手游</p>
+                    <p class="details-price"></p>
+                    <div class="details-img"><a href=""><img src="img/内容3.png" alt=""></a></div>
+                    <div class="details-point">
+                        <ul class="details-point1">
+                            <li class="details-point-1">
+                                <span><div class="dot hover new"></div></span>
+                            </li><li class="details-point-1">
+                            <span><div class="dot new-dot"></div></span>
+                        </li><li class="details-point-1">
+                            <span><div class="dot new-dot"></div></span>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="btn-left left-neirong"></div>
+                    <div class="btn-right"></div>
+                </li>
+                <li class="bd-details separ2">
+                    <h2><div class="gaide2">应用</div></h2>
+                    <p class="details-name">2017金米奖</p>
+                    <p class="details-bd">最优秀的应用和游戏</p>
+                    <p class="details-price"></p>
+                    <div class="details-img"><a href=""><img src="img/内容4.png" alt=""></a></div>
+                    <div class="details-point">
+                        <ul class="details-point1">
+                            <li class="details-point-1">
+                                <span><div class="dot hover new"></div></span>
+                            </li><li class="details-point-1">
+                            <span><div class="dot new-dot"></div></span>
+                        </li><li class="details-point-1">
+                            <span><div class="dot new-dot"></div></span>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="btn-left left-neirong"></div>
+                    <div class="btn-right"></div>
+                </li>
+            </ul>
+        </div>
+    </div>

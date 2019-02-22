@@ -1,0 +1,562 @@
+/*清除浏览器默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+/*素馨导航开始*/
+.su-header{
+    height:759px;
+    width:100%;
+    /*background: red ;*/
+    float: left;
+    margin: 0 auto;
+    position: relative;
+
+}
+.su-header img{
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.header-content{
+    width: 100%;
+    height:79px;
+    /*background: blue ;*/
+   position: fixed;
+    left:0;
+    top:0;
+    background:rgba(0, 0, 0, 0.15);
+}
+.header-nav {
+    width:1170px;
+    height:79px;
+    /*background: coral ;*/
+    margin: 0 auto;
+}
+.nav-logo {
+    width:150px;
+    height:79px;
+    /*background: chartreuse ;*/
+    float: left;
+}
+.nav-logo a{
+    width:150px;
+    height:79px;
+ /*   background: #ff5359;*/
+    text-align: center ;
+    float: left;
+    position: relative;
+}
+.nav-logo  img{
+    width:150px;
+    height:50px;
+    box-sizing: border-box;
+    float: left;
+    position: absolute;
+    top:15px;
+    left:0;
+    display: block;
+
+}
+.nav-list {
+    width:602px;
+    height:79px;
+    /*background: blueviolet ;*/
+    float: right;
+}
+.nav-list-item {
+    width:56px;
+    height:79px;
+  /*  background:orangered ;*/
+    padding: 0 15px;
+    float: left;
+}
+.nav-list-item1 {
+    width:56px;
+    height:79px;
+  /*  background:orangered ;*/
+    padding: 0 15px;
+    float: left;
+}
+.nav-list-item a{
+    color: #16b0dc ;
+    font-size: 14px;
+    line-height: 79px;
+    font-weight: 200;
+}
+.nav-list-item a:hover{
+    color: #16b0dc ;
+}
+.nav-list-item1 a{
+    color: #ffffff ;
+    font-size: 14px;
+    line-height: 79px;
+    font-weight: 200;
+}
+.nav-list-item1 a:hover{
+    color: #16b0dc ;
+}
+.he-caption {
+    width:810px;
+    height:0;
+   /* background: #47dc69;*/
+    padding: 20px 0 30px;
+    position: absolute ;
+    top:689px;
+    left:270px;
+}
+
+.dots {
+    width: 810px;
+    height: 21px;
+    float: left;
+   /* background: #16b0dc;*/
+    position: relative;
+}
+
+.dot{
+    height:10px;
+    width:10px;
+    border-radius: 50% ;
+    float: left;
+    background: white;
+    margin-right: 3px;
+    position: absolute;
+    top:5px;
+    left:395px;
+}
+.hover{
+    background: black;
+    position: absolute;
+    top:5px;
+    left:410px;
+}
+.lunbo-left {
+    width:202px;
+    height:759px;
+    display: block;
+    z-index: 12;
+    position: absolute;
+    top:0;
+    left:0;
+    background: #000;
+    opacity: 0;
+}
+.lunbo-right{
+    width:202px;
+    height:759px;
+    display: block;
+    z-index: 12;
+    position:absolute;
+    top:0;
+    right:0;
+    background: #000;
+    opacity: 0;
+}
+.lunbo-left-icon{
+    width:24px;
+    height:24px;
+    z-index: 18;
+    margin: 0 auto ;
+    position: absolute;
+    top:50%;
+    left:101px;
+
+}
+.lunbo-left:hover{
+    opacity: 0.3;
+}
+.lunbo-right:hover{
+    opacity: 0.3;
+}
+.lunbo-left-icon i {
+    display: block;
+    height:24px;
+    width:24px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 24px;
+    z-index: 13;
+}
+
+.lunbo-right-icon{
+    width:24px;
+    height:24px;
+    font-size:24px;
+    z-index: 18;
+    margin: 0 auto ;
+    position: absolute;
+    top:50%;
+   right:101px;
+}
+.lunbo-right-icon i{
+    display: block;
+    height:24px;
+    width:24px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 24px;
+    z-index: 13;
+}
+/*花艺开始*/
+.huayi {
+    width:100%;
+    height:604px;
+    padding: 70px 0;
+   /* background: blueviolet ;*/
+    float: left;
+    margin: 0 auto;
+}
+.huayi-container {
+    width:1140px;
+    height:604px;
+    padding: 0 15px;
+    margin: 0 auto;
+  /*  background: blue ;*/
+}
+.huayi-container h3 {
+    font-size: 36px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 11px;
+    color: #37474f;
+    width:1140px;
+    height:43px;
+
+}
+.huayi-container p{
+    width:912px;
+    height:24px;
+    margin: 0 114px;
+    /*background: #47dc69 ;*/
+    color: #5e7387;
+    text-align: center ;
+    font-size: 16px;
+}
+.huayi-lunbo {
+    width:1020px;
+    height:476px;
+/*    background: #ff5359 ;*/
+    padding: 0 60px;
+    margin-top: 50px;
+    float: left;
+    position: relative;
+}
+.huayi-lunbo-item {
+    width:320px;
+    height:476px;
+  /*  background: orange ;*/
+   /* margin-right: 30px;*/
+    float: left;
+}
+.tu2 {
+    width:320px;
+    height:476px;
+ /*   background: orange ;*/
+      margin: 0 30px;
+    float: left;
+}
+.huayi-lunbo-item img{
+    width:320px;
+    height:320px;
+    border-radius: 50% ;
+    box-sizing: border-box;
+}
+.huayi-lunbo-item h4{
+    width:320px;
+    height:21px;
+    color: #37474f;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center ;
+    margin:11px 0;
+    line-height: 21px;
+}
+.huayi-lunbo-item p{
+   width:320px;
+    height:44px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left  ;
+    margin:11px 0;
+}
+.huayi-lunbo-item a {
+    width: 288px;
+    height: 22px;
+    color: #ffffff;
+    background: #f96868;
+    padding: 6px 15px;
+    border: 1px solid #f96868;
+    margin: 0 auto;
+    font-size: 14px;
+    border-radius: 3px;
+    float: left;
+    text-align: center ;
+}
+.huayi-lunbo-left {
+     width:30px;
+    height:30px;
+    background: #a3afb7;
+    border-radius: 50%;
+    position: absolute;
+    top:238px;
+    left:10px;
+    text-align: center ;
+}
+.huayi-lunbo-left i{
+    color: #fff;
+   line-height: 30px;
+}
+.huayi-lunbo-left:hover{
+    background: #76838f;
+}
+
+.huayi-lunbo-right {
+    width:30px;
+    height:30px;
+    background: #a3afb7;
+    border-radius: 50%;
+    position: absolute;
+    top:238px;
+    left:1100px;
+    text-align: center ;
+}
+.huayi-lunbo-right i{
+    color: #fff;
+    line-height: 30px;
+}
+.huayi-lunbo-right:hover{
+    background: #76838f;
+}/*花艺结束*/
+/*素馨花语开始*/
+.huayu{
+    width:100%;
+    height:567px;
+    background: #f5f5f5 ;
+    padding: 70px 0;
+    float: left;
+    margin: 0 auto;
+}
+.huayu-container {
+    width:1140px;
+    height:567px;
+  /*  background: #47dc69 ;*/
+    padding: 0 35px;
+    margin: 0 auto 90px;
+}
+.huayu-container h3{
+    width:1140px;
+    height:43px;
+    margin-bottom: 11px;
+    font-size: 36px;
+    text-align: center ;
+    font-weight: 300;
+    line-height: 43px;
+    color: #37474f;
+}
+.huayu-list{
+    width:1170px;
+    height:504px;
+    margin: 20px 15px 0;
+}
+.huayu-list-item {
+    width:555px;
+    height:96px;
+   /* background: orange ;*/
+   /* padding: 0 15px;*/
+    margin-top: 30px;
+    float: left;
+}
+.huayu-list-item img{
+    width:160px;
+    height:96px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    float: left;
+    padding-right: 20px;
+}
+.huayu-list-item h4{
+    width:375px;
+    height:21px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #37474f;
+    font-weight: 400;
+}
+.huayu-list-item a {
+     width: 90px;
+     height: 20px;
+ }
+.huayu-list-item a:hover{
+    text-decoration: underline #62a8ea ;
+    color: #62a8ea;
+}
+.huayu-list-item p{
+    width:375px;
+    height:42px;
+    margin-bottom: 5px;
+    color: #76838f;
+    font-size: 14px;
+    font-weight: 300;
+   float: left;
+}
+.p-two {
+    width:375px;
+    height:21px;
+    color: #76838f;
+    font-weight: 300;
+    font-size: 14px;
+}
+.huayu-list-item span{
+    width:65px;
+    height:19px;
+    margin-right: 10px;
+
+}
+.huayu-list-item span mid{
+    width:42px;
+    height:19px;
+}
+.huayu-list-item i{
+    width:14px;
+    height:14px;
+}
+/*素馨花语结束*/
+/*花语工作室开始*/
+.workroom {
+    width:100%;
+    height:765px;
+    padding: 70px 0;
+   /* background: green ;*/
+    float: left;
+}
+.workroom-container {
+    width:1140px;
+    height:765px;
+    padding:0 15px;
+    margin: 0  auto 90px;
+ /*   background: #16b0dc ;*/
+}
+.workroom-container h3{
+    width:1140px;
+    height:43px;
+    margin-bottom: 11px;
+   /* background: #ff5359 ;*/
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center ;
+    color: #37474f;
+    line-height: 43px;
+}
+.workroom-detail {
+    width:1080px;
+    height:612px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.p1 {
+    width: 1080px;
+    height: 32px;
+    text-align: center ;
+    margin-bottom: 16px;
+}
+.workroom-detail p{
+    width: 1080px;
+    height: 32px;
+    text-align: center ;
+}
+.workroom-detail span{
+    width:513px;
+    height:20px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #76838f;
+}
+/*花语工作室结束*/
+/*地图开始 */
+.map-box {
+    width:1080px;
+    height:340px;
+ /*   background: #47dc69 ;*/
+    position: relative;
+}
+.map-box img{
+    width:530px;
+    height:340px;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    left:275px;
+}
+.footer-box {
+    width:100%;
+    height:161px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    color: #aaaaaa;
+}
+.social {
+    width:100%;
+    height:46px;
+    padding: 5px 0;
+    margin-top: 10px;
+    background: #f5f5f5 ;
+    float: left;
+    text-align: center ;
+}
+.social img{
+    width:26px;
+    height:26px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.footer {
+    width:100%;
+    height:75px;
+    float: left;
+    background: #f5f5f5;
+    padding-bottom: 20px;
+    /*margin-bottom: 20px;*/
+}
+.footer p{
+    width:1140px;
+    height:25px;
+    font-size:14px;
+    color: #aaaaaa;
+     margin: 0 auto ;
+    text-align: center ;
+    line-height: 25px;
+
+}
+.footer a{
+    width: 123px;
+    height:19px;
+    color: #62a8ea;
+    margin-right: 5px;
+}
+.footer a:hover  {
+    text-decoration:#62a8ea underline  ;
+}
+.footer img{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/*素馨导航结束*/
